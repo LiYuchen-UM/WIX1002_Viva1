@@ -13,7 +13,6 @@ public class q02 {
             n[i] = input.nextInt();
             l[i] = input.nextInt();
         }
-        input.close();
         for (int i = 0; i < q; i++) {
             int lucky = 0;
             int zero = 0;
@@ -32,5 +31,6 @@ public class q02 {
             else if (odd > lucky && odd > zero && odd > even) System.out.println("ENERGETIC");
             else System.out.println("NEUTRAL");
         }
+        input.close();
     }
 }
