@@ -23,7 +23,6 @@ public class q01 {
             }
             System.out.println();
         }
-        System.out.println("aaaa");
         input.close();
     }
 }
