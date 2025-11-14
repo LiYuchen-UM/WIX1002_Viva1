@@ -3,11 +3,12 @@ import java.util.Scanner;
 public class q05 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter the number of words you are entering: ");
+        // System.out.print("Enter the number of words you are entering: ");
+        System.out.println("Enter the number of words and your words: ");
         int t = input.nextInt();
         String[] word = new String[t];
         for (int i = 0; i < t; i++) {
-            System.out.print("Enter word " + (i + 1) + ": ");
+            // System.out.print("Enter word " + (i + 1) + ": ");
             word[i] = input.next().toLowerCase();
         }
         for (int i = 0; i < t; i++) {
@@ -24,9 +25,10 @@ public class q05 {
                 if (c1Vowel == true && c2Vowel == true) noAdjacentVowel = false;
             }
             if (cEnd == 'a' || cEnd == 'e' || cEnd == 'i' || cEnd == 'o' || cEnd == 'u') notEndWithVowel = false;
-            if (noAdjacentVowel == true && notEndWithVowel == true) System.out.println("Harmony");
-            else System.out.println("Chaos");
+            if (noAdjacentVowel == true && notEndWithVowel == true) System.out.print("Harmony ");
+            else System.out.print("Chaos ");
         }
+        System.out.println();
         input.close();
     }
 }
