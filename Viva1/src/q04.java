@@ -34,5 +34,6 @@ public class q04 {
         System.out.println(firstWhisper + "\t(First Whisper)");
         System.out.println(lastEcho + "\t(Last Echo)");
         System.out.println(coreValue + "\t(Core Value)");
+        input.close();
     }
 }

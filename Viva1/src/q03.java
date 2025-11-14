@@ -34,5 +34,6 @@ public class q03 {
                 }
             } else System.out.println("Invaild style for query " + (i + 1));
         }
+        input.close();
     }
 }
