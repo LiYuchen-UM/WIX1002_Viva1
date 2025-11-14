@@ -186,9 +186,9 @@ Example `H=4`:
 ### 🧩 Problem Statement
 Given a word and integer `k`, find:
 
-1. **First Whisper** → lexicographically smallest substring of length k  
-2. **Last Echo** → lexicographically largest substring of length k  
-3. **Core Value** → substring with the highest ASCII sum  
+1. **First Whisper** → lexicographically smallest substring of length k
+2. **Last Echo** → substring with the highest ASCII sum
+3. **Core Value** → lexicographically largest substring of length k
 
 Example:
 ```
@@ -199,8 +199,8 @@ satayisverysedap
 #### Result
 ```
 ata     (First Whisper)
-rys     (Core Value)
-yse     (Last Echo)
+rys     (Last Echo)
+yse     (Core Value)
 ```
 
 #### Tips
