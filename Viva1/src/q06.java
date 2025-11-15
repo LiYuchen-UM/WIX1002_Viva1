@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class q06 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the number of words and your compressed words:");
+        // System.out.println("Enter the number of words and your compressed words:");
         int t = input.nextInt();
         String[] word = new String[t];
         for (int i = 0; i < t; i++) word[i] = input.next().toLowerCase();

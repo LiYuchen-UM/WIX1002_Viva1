@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class q04 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a word: ");
+        // System.out.println("Enter a word: ");
         String word = input.next().toLowerCase();
-        System.out.println("Enter a length: ");
+        // System.out.println("Enter a length: ");
         int k = input.nextInt();
 
         String firstWhisper = null;

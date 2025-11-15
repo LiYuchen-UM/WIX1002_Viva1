@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class q02 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter the total number of inquiries: ");
+        // System.out.print("Enter the total number of inquiries: ");
         int q = input.nextInt();
         int[] n = new int[q];
         int[] l = new int[q];
         for (int i = 0; i < q; i++) {
-            System.out.println("Enter the <Number> and <Lucky Digit> for query " + (i + 1));
+            // System.out.println("Enter the <Number> and <Lucky Digit> for query " + (i + 1));
             n[i] = input.nextInt();
             l[i] = input.nextInt();
         }

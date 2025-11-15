@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class q03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the total number of inquiries: ");
+        // System.out.println("Enter the total number of inquiries: ");
         int q = input.nextInt();
         int[] height = new int[q];
         String[] style = new String[q]; 
         for (int i = 0; i < q; i++) {
-            System.out.println("Enter the <height> and the <style> for query " + (i + 1));
+            // System.out.println("Enter the <height> and the <style> for query " + (i + 1));
             height[i] = input.nextInt();
             style[i] = input.next();
         }
